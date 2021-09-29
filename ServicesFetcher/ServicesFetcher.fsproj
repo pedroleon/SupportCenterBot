@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FetchExchangeAppointments.PublicTypes.fs" />
+    <Compile Include="FetchExchangeAppointments.InternalTypes.fs" />
+    <Compile Include="FetchExchangeAppointments.Dto.fs" />
+    <Compile Include="FetchExchangeAppointments.Implementation.fs" />
+    <Compile Include="FetchExchangeAppointments.Api.fs" />
+    <Compile Include="Helpers.fs" />
+    <Compile Include="Soap.fs" />
+    <Compile Include="FindItem.fs" />
+    <Compile Include="Ews.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\common\common.fsproj" />
+  </ItemGroup>
+</Project>
