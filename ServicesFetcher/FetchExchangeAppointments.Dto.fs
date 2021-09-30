@@ -42,12 +42,4 @@ type FolderCalendarItemDto = {
 module internal FolderCalendarItemDto = 
 
     let toPartiallyLoadedAppointment (dto: FolderCalendarItemDto) : Result<FolderCalendarItemDto, WorkflowError> =
-
-        let uniqueId = sprintf "%s:%s" dto.ItemId.Id dto.ItemId.ChangeKey
-        let obj: FolderCalendarItemDto = {
-            Id = uniqueId
-            Subject = dto.Subject
-            Location = dto.Location
-        }
-
-        (Ok obj)
+        (Error (WorkflowError.withError "Not implemented"))

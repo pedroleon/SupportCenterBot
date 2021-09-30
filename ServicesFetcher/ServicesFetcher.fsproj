@@ -9,10 +9,6 @@
     <Compile Include="FetchExchangeAppointments.Dto.fs" />
     <Compile Include="FetchExchangeAppointments.Implementation.fs" />
     <Compile Include="FetchExchangeAppointments.Api.fs" />
-    <Compile Include="Helpers.fs" />
-    <Compile Include="Soap.fs" />
-    <Compile Include="FindItem.fs" />
-    <Compile Include="Ews.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\common\common.fsproj" />

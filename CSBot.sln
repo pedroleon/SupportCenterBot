@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "common", "Common\common.fsp
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SupportCenter", "SupportCenter\SupportCenter.fsproj", "{EC836A2F-5726-4117-9716-A66CFC99AEE4}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HttpUtils", "HttpUtils\HttpUtils.fsproj", "{70717C25-E787-4AAB-8E10-0FCE0174EF41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EC836A2F-5726-4117-9716-A66CFC99AEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC836A2F-5726-4117-9716-A66CFC99AEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC836A2F-5726-4117-9716-A66CFC99AEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70717C25-E787-4AAB-8E10-0FCE0174EF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70717C25-E787-4AAB-8E10-0FCE0174EF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70717C25-E787-4AAB-8E10-0FCE0174EF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70717C25-E787-4AAB-8E10-0FCE0174EF41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

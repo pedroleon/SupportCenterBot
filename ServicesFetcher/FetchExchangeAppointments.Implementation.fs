@@ -14,6 +14,12 @@ open Result
 // ======================================================
 
 let fetchFolderCalendarItems: FetchFolderCalendarItems = fun config query ->
+
+    (*
+        let operation = buildFindOperation
+        let xml = performOperation operation
+        let dto = deserialize<Dto> xml
+    *)
     (Ok List.empty)
 
 let fetchFullCalendarItems: FetchFullCalendarItems = fun config calendarItems ->

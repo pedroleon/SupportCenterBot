@@ -4,10 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Program.Archived.fs" />
+    <Compile Include="PushTickets.PublicTypes.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\common.fsproj" />
     <ProjectReference Include="..\ServicesFetcher\ServicesFetcher.fsproj" />
+    <ProjectReference Include="..\SupportCenter\SupportCenter.fsproj" />
   </ItemGroup>
 </Project>
