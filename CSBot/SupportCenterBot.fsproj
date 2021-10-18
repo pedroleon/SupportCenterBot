@@ -4,13 +4,23 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ParseCommandLineOptions.PublicTypes.fs" />
+    <Compile Include="ParseCommandLineOptions.Implementation.fs" />
+    <Compile Include="PushRecurrentTickets.Zammad.Implementation.fs" />
     <Compile Include="Program.Archived.fs" />
     <Compile Include="PushTickets.PublicTypes.fs" />
+    <Compile Include="Intranet.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\common.fsproj" />
     <ProjectReference Include="..\ServicesFetcher\ServicesFetcher.fsproj" />
     <ProjectReference Include="..\SupportCenter\SupportCenter.fsproj" />
+    <ProjectReference Include="..\Zammad.Client\src\Zammad.Client\Zammad.Client.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.3">
+      <GeneratePathProperty></GeneratePathProperty>
+    </PackageReference>
   </ItemGroup>
 </Project>
